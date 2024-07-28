@@ -20,7 +20,8 @@ I am a versatile software developer with experience in various areas of web and 
 - **UI/UX Design**: Creating intuitive and aesthetically pleasing user interfaces
 - **Mobile App Development**: React Native for cross-platform mobile applications
 - **Machine Learning**: TensorFlow for deep learning and OpenCV.js for computer vision tasks
-```
+
+<!--
 ## Projects
 
 Here are some of the projects that I have worked on:
@@ -43,7 +44,7 @@ Here are some of the projects that I have worked on:
    - **Technologies**: List of technologies used.
    - **Features**: Key features and functionalities.
    - **Live Demo**: [Link to live demo](Demo-Link)
-```
+-->
 ## Technologies
 
 - **Frontend**: HTML5, CSS3, JavaScript, React.js
