@@ -42,14 +42,14 @@ export default function Home() {
           <Hoverimage imageLink="/img/triida-ui.svg"/>
         </div>
         <div onClick={()=> setPreviewImage("/img/ui_casestudy/Nerra ui research.svg")}
-         className="showUiprev relative flex items-end gap-1 bg-nerra-light py-5 px-10 rounded-3xl cursor-pointer max-[639px]:items-center w-max max-[440px]:flex-col">
+         className="showUiprev relative flex items-end gap-1 bg-nerra-light py-5 px-10 rounded-3xl cursor-pointer max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max">
           <Image src={Nerra} alt="nerra"  className="w-auto lg:h-14 md:h-12 sm:h-10  max-[639px]:h-8" />
           <p className="text-nerra pb-1 lg:text-2l md:h-8 sm:h-6 max-[639px]:h-3.5"> 
             Highschool industrial training
           </p>
           <Hoverimage imageLink="/img/nerra-ui.svg" style=" bg-gray-100 backdrop-filter backdrop-blur-2xl rounded-xl shadow-nerra-light"/>
         </div>
-        <div className="relative flex items-end gap-1 bg-seeker-light py-5 px-10 rounded-3xl cursor-pointer max-[639px]:items-center w-max max-[440px]:flex-col">
+        <div className="relative flex items-end gap-1 bg-seeker-light py-5 px-10 rounded-3xl cursor-pointer max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max">
           <Image src={Seeker} alt="seeker"  className="w-auto lg:h-14 md:h-12 sm:h-10  max-[639px]:h-8" />
           <p className="text-seeker pb-1 lg:text-2l md:h-8 sm:h-6 max-[639px]:h-3.5"> 
             Snap, find and buy nearby
