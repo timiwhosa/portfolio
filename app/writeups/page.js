@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main className="">
-      "pages writeups"
+      {"pages writeups"}
     </main>
   );
 }

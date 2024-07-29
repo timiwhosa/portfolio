@@ -6,7 +6,7 @@ import vidCall from "../public/img/Video_call_timi.svg"
 import whatsapp from "../public/img/whatsapp.svg"
 export default function Navbar(){
     return(
-        <div className="flex justify-between min-[540px]:p-10 max-[539px]:p-5 max-[440px]:pr-0 h-16 overflow-visible sticky w-full top-0 z-50">
+        <div className="flex justify-between min-[540px]:p-10 max-[539px]:p-5 max-[440px]:pr-0 h-16 overflow-visible sticky w-full top-0 z-40">
             <div>
                 <Link href="/" className="Logo relative w-min" >
                     <Image src={Logo}  height={26} className="w-auto relative" alt="timi wordmark"/>

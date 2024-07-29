@@ -47,3 +47,26 @@ body,html{
 .Logo img{
     pointer-events: auto;
 }
+
+.preview >img{
+    max-width: 70vw;
+}
+
+
+.showUiprev:hover > .Hoverimageui{
+    display: block;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left:50%;
+    transform: translate(-50%);
+}
+.Hoverimageui{
+    display: none;    
+}
+.Hoverimageui>img{
+    width: auto;
+    height: 100%;
+    max-height: 66vh;
+    object-fit: contain;
+}
