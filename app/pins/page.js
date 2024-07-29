@@ -7,7 +7,7 @@ export default function Pins(){
                 <span>Specially Selected Pins i saved on </span>
                 <a href="https://www.pinterest.com/timiwhosa/pins/" target="_blank" className="underline italic">Pinterest</a>
             </h1>
-            <div className="grid grid-cols-2 gap-10 pl-10 pr-10">
+            <div className="grid grid-cols-2 gap-10 pl-10 pr-10 max-[440px]:gap-5">
                 <Apin img="/img/pins/roadrunner.svg" title={"Roadrunner"} pinterestLink="https://www.pinterest.com/timiwhosa/roadrunner/" />
                 <Apin img="/img/pins/triida.svg" title={"Triida Branding"} pinterestLink="https://www.pinterest.com/timiwhosa/triida-branding/" />
                 <Apin img="/img/pins/nerra.svg" title={"Nerra"} pinterestLink="https://www.pinterest.com/timiwhosa/nerra/" />
