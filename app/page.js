@@ -31,7 +31,7 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <div className="flex flex-wrap justify-center gap-5 max-[440px]:gap-1">
+      <div className="flex flex-wrap justify-center gap-5 max-[440px]:gap-1 max-w-6xl">
         <div onClick={()=> setPreviewImage("/img/ui_casestudy/Triida ui research.svg")}
          className="showUiprev relative flex items-end gap-1 bg-triida-light py-5 px-10 rounded-3xl cursor-pointer  max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max">
           <Image src={Triida} alt="triida"  className="w-auto lg:h-14 md:h-12 sm:h-10  max-[639px]:h-8 max-[440px]:h-5" />

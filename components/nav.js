@@ -21,7 +21,7 @@ export default function Navbar(){
                 <div className="flex flex-col gap-5 items-center bg-gray-100 min-[540px]:p-5 max-[539px]:p-3 h-max">
                     <span className="w-24"> Lets talk about your Project</span>
                     <Image src={vidCall} alt="timi wordmark" title="Video Call me now" className="cursor-pointer h-10 w-auto max-[440px]:h-5"/>
-                    <Link href="#">
+                    <Link href="https://wa.me/+2349050595291">
                         <Image src={whatsapp} alt="timi wordmark" title="Lets talk on whatsapp" className="cursor-pointer h-10 w-auto max-[440px]:h-5"/>
                     </Link>
                 </div>
