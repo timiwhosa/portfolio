@@ -16,22 +16,22 @@ export default function Pins() {
       </h1>
       <div className="grid grid-cols-2 gap-10 pl-10 pr-10 max-[440px]:grid-cols-1">
         <Apin
-          img="/img/pins/roadrunner.svg"
+          img="./img/pins/roadrunner.svg"
           title={"Roadrunner"}
           pinterestLink="https://www.pinterest.com/timiwhosa/roadrunner/"
         />
         <Apin
-          img="/img/pins/triida.svg"
+          img="./img/pins/triida.svg"
           title={"Triida Branding"}
           pinterestLink="https://www.pinterest.com/timiwhosa/triida-branding/"
         />
         <Apin
-          img="/img/pins/nerra.svg"
+          img="./img/pins/nerra.svg"
           title={"Nerra"}
           pinterestLink="https://www.pinterest.com/timiwhosa/nerra/"
         />
         <Apin
-          img="/img/pins/seeker.svg"
+          img="./img/pins/seeker.svg"
           title={"Seeker Ml"}
           pinterestLink="https://www.pinterest.com/timiwhosa/seeker/"
         />
@@ -57,7 +57,7 @@ export function Apin({ img, title, pinterestLink }) {
               {title}
             </h2>
             <img
-              src={"/img/rightUparrow.svg"}
+              src={"./img/rightUparrow.svg"}
               width={20}
               height={20}
               className="h-auto "

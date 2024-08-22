@@ -20,7 +20,7 @@ export default function Fun() {
             effective user interface and experience design.
           </p>
           <img
-            src="/img/triida-ui.svg"
+            src="./img/triida-ui.svg"
             className="h-auto sm:w-[50%] max-h-[400px]"
           />
         </div>
@@ -45,12 +45,12 @@ export default function Fun() {
             browser-based model.
           </p>
           <video muted autoPlay loop className="sm:w-[50%] h-auto">
-            <source src="/img/video/meta_sam1.mp4" type="video/mp4" />
+            <source src="./img/video/meta_sam1.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="flex gap-5 items-center max-[440px]:flex-col-reverse max-[440px]:mt-5">
           <img
-            src="/img/video call ui.svg"
+            src="./img/video call ui.svg"
             className="h-auto sm:w-[50%] max-h-[400px]"
           />
           <p>

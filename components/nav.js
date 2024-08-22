@@ -4,7 +4,7 @@ import Link from "next/link";
 // img, svg
 const Logo = "./img/Timi.png";
 const vidCall = "./img/Video_call_timi.svg";
-const whatsapp = "/img/whatsapp.svg";
+const whatsapp = "./img/whatsapp.svg";
 import VidCall from "./videocall";
 import { useState } from "react";
 

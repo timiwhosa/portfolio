@@ -1,17 +1,17 @@
 "use client";
 // import Image from "next/image";
-const  TimiReact =  "/img/timi_React.svg";
-const  Nodejs =  "/img/timi_Nodejs.svg";
-const  Tf =  "/img/timi_Tensorflow.svg";
-const  Figma =  "/img/timi_Figma.svg";
-const  Nerra =  "/img/Nerra.svg";
-const  Triida =  "/img/Triida.svg";
-const  Seeker =  "/img/Seeker.svg";
+const TimiReact = "./img/timi_React.svg";
+const Nodejs = "./img/timi_Nodejs.svg";
+const Tf = "./img/timi_Tensorflow.svg";
+const Figma = "./img/timi_Figma.svg";
+const Nerra = "./img/Nerra.svg";
+const Triida = "./img/Triida.svg";
+const Seeker = "./img/Seeker.svg";
 import Preview from "@/components/preview";
 import { useState } from "react";
 import Hoverimage from "@/components/hoverImage";
 
-const triidaCaseStudy = "/img/ui_casestudy/Nerra ui research.svg";
+const triidaCaseStudy = "./img/ui_casestudy/Nerra ui research.svg";
 
 export default function Home() {
   const [previewImage, setPreviewImage] = useState(null);
@@ -52,7 +52,7 @@ export default function Home() {
       <div className="flex flex-wrap justify-center gap-5 max-[440px]:gap-1 max-w-6xl">
         <div
           onClick={() =>
-            setPreviewImage("/img/ui_casestudy/Triida ui research.svg")
+            setPreviewImage("./img/ui_casestudy/Triida ui research.svg")
           }
           className="showUiprev relative flex items-end gap-1 bg-triida-light py-5 px-10 rounded-3xl cursor-pointer  max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max"
         >
@@ -64,11 +64,11 @@ export default function Home() {
           <p className="text-triida pb-1 lg:text-2l h-max max-[639px]:p-0 max-[639px]:text-sm max-[440px]:text-xs">
             Ondemand Parcel Delivery
           </p>
-          <Hoverimage imageLink="/img/triida-ui.svg" />
+          <Hoverimage imageLink="./img/triida-ui.svg" />
         </div>
         <div
           onClick={() =>
-            setPreviewImage("/img/ui_casestudy/Nerra ui research.svg")
+            setPreviewImage("./img/ui_casestudy/Nerra ui research.svg")
           }
           className="showUiprev relative flex items-end gap-1 bg-nerra-light py-5 px-10 rounded-3xl cursor-pointer max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max"
         >
@@ -81,7 +81,7 @@ export default function Home() {
             Highschool industrial training
           </p>
           <Hoverimage
-            imageLink="/img/nerra-ui.svg"
+            imageLink="./img/nerra-ui.svg"
             style=" bg-gray-100 backdrop-filter backdrop-blur-2xl rounded-xl shadow-nerra-light"
           />
         </div>
@@ -96,7 +96,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      {/* {workPreview && <Hoverimage imageLink="/img/nerra-ui.svg"/>} */}
+      {/* {workPreview && <Hoverimage imageLink="./img/nerra-ui.svg"/>} */}
       {previewImage && (
         <Preview imageLink={previewImage} setPreviewImage={setPreviewImage} />
       )}
