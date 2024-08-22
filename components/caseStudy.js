@@ -7,7 +7,7 @@
 //       onClick={() => onClick(previewImage)}
 //       className={`showUiprev relative flex items-end gap-1 py-5 px-10 rounded-3xl cursor-pointer w-max ${hoverImageStyle}`}
 //     >
-//       <Image
+//       <img
 //         src={imageSrc}
 //         alt={altText}
 //         className="w-auto lg:h-14 md:h-12 sm:h-10 max-[639px]:h-8"

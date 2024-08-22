@@ -48,12 +48,13 @@ body,html{
 }
 
 .preview >img{
-    max-width: 70vw;
+    max-width: 90vw;
 }
 
 
 .showUiprev:hover > .Hoverimageui{
-    display: block;
+    /* display: block; */
+    visibility: visible;
     position: absolute;
     width: max-content;
     height: max-content;
@@ -61,7 +62,7 @@ body,html{
     transform: translate(-50%);
 }
 .Hoverimageui{
-    display: none;    
+    visibility: hidden;    
 }
 .Hoverimageui>img{
     width: auto;
@@ -72,4 +73,36 @@ body,html{
 
 .maxW70vw{
     max-width: 70vw;
+}
+.vidCall{
+    right: 40px;
+    top: 40px;
+    height: 400px;
+    width: 300px;
+    max-height: 70vh;
+    z-index: 99999999999;
+}
+.vidCall > .incomingvid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #333;
+    object-fit: cover;
+}
+.vidCall .myvid{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 440px) {
+    .showUiprev:hover > .Hoverimageui{
+        display: none;
+    }
 }
