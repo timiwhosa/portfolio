@@ -60,7 +60,7 @@ export function Apin({ img, title, pinterestLink }) {
           {isLoading && (
             <div className="loading-spinner flex h-full items-center">
               <svg
-                className="animate-spin h-12 w-12 text-white"
+                className="animate-spin h-12 w-12 text-black"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
