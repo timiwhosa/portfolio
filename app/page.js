@@ -85,7 +85,7 @@ export default function Home() {
             style=" bg-gray-100 backdrop-filter backdrop-blur-2xl rounded-xl shadow-nerra-light"
           />
         </div>
-        <div className="relative flex items-end gap-1 bg-seeker-light py-5 px-10 rounded-3xl cursor-pointer max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max">
+        <div className="relative flex items-end gap-1 bg-seeker-light py-5 px-10 rounded-3xl cursor-not-allowed max-[639px]:items-center max-[440px]:flex-col max-[440px]:py-2.5  w-max">
           <img
             src={Seeker}
             alt="seeker"
