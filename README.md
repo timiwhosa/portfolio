@@ -1,7 +1,8 @@
-# Timi's Portfolio
+![image](https://github.com/user-attachments/assets/350b91c3-d2d2-4dae-8db1-6218285cbed6)# Timi's Portfolio
 
-Welcome to my portfolio! I'm Ifoghale Timilehin, a MERN stack developer with a passion for UI/UX design, mobile app development using React Native, and machine learning with TensorFlow and OpenCV.js. This repository showcases some of my projects and skills across these domains.
+I'm Ifoghale Timilehin, a MERN stack developer with a passion for UI/UX design, mobile app development using React Native, and machine learning with TensorFlow and OpenCV.js. This repository showcases some of my projects and skills across these domains.
 
+(https://imgbox.com/JIIFoU1C)
 ## Table of Contents
 
 - [About Me](#about-me)
