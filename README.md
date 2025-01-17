@@ -4,7 +4,7 @@ Hi there! I'm **Ifoghale Timilehin**, a dynamic MERN stack developer with a knac
 
 ![Portfolio Homepage Screenshot](https://images2.imgbox.com/5a/de/JIIFoU1C_o.png)
 
-## 🚀 Why Choose Me?
+## 🚀 Why Work with Me?
 
 I’m not just a developer—I’m a problem solver. My passion for technology is matched only by my commitment to delivering exceptional results. With a diverse skill set and a relentless drive for improvement, I bring a fresh perspective to every project I tackle.
 
