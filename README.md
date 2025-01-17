@@ -2,7 +2,7 @@
 
 Hi, I'm Ifoghale Timilehin, a MERN stack developer with a passion for UI/UX design, mobile app development using React Native, and machine learning with TensorFlow and OpenCV.js. This repository showcases some of my projects and skills across these domains.
 
-![image](https://images2.imgbox.com/5a/de/JIIFoU1C_t.png)
+![App Screenshot](https://images2.imgbox.com/5a/de/JIIFoU1C_o.png)
 ## Table of Contents
 
 - [About Me](#about-me)
